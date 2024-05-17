@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(200deg, #4d0009, rgb(114, 3, 114), rgba(5, 12, 115, 0.91));
+    min-height: 100vh;
+    overflow-x: hidden;
+
+}
+
+/*.icons{*/
+/*    display: flex;*/
+/*    justify-content: right;*/
+/*}*/
+.Linkedin{
+    height: 45px;
+    float: right;
+    display: flex;
+    transition: 0.3s ease-in-out;
+}
+.Linkedin:hover{
+    border-radius: 5px;
+    transform: scale(1.05);
+    box-shadow: 1px 2px 10px rgba(255, 255, 255, 0.15), -2px -1px 10px rgba(255, 255, 255, 0.45);
+}
+.Github{
+    height: 45px;
+    float: right;
+    display: flex;
+    transition: 0.3s ease-in-out;
+}
+.Github:hover{
+    border-radius: 15px;
+    transform: scale(1.05);
+    box-shadow: 1px 2px 10px rgba(255, 255, 255, 0.15), -2px -1px 10px rgba(255, 255, 255, 0.45);
+}
+
+.button:hover{
+    transform: scale(1.15);
+    box-shadow: 1px 4px 15px rgba(255, 255, 255, 0.15), -4px -2px 14px rgba(255, 255, 255, 0.45);
+}
+.navbar ul{
+    border-radius: 15px;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.navbar a{
+    text-decoration: none;
+    font-family: SansSerif, Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+    /*padding: 5px;*/
+}
+.navbar li{
+    border-radius: 10px;
+    padding: 15px;
+    margin: 1px 1px 1px 40px;
+    transition: 0.5s ease-in-out;
+}
+
+.summary p{
+    color: white;
+    padding: 10px 30px 40px 50px;
+}
+
+#s1{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 15px 50px 10px 50px;
+    border-radius: 15px;
+    min-height: 450px;
+    max-height: 1000px;
+    min-width: 1000px;
+    transition: 0.5s ease-in-out;
+}
+#s1:hover{
+    transform: scale(1.03);
+    box-shadow: 3px 5px 20px rgba(255, 255, 255, 0.15), -1px -2px 20px rgba(255, 255, 255, 0.25);
+}
+#s1 h2{
+    padding-left: 1025px;
+}
+
+address a{
+    text-decoration: none;
+    color: skyblue;
+}
+address{
+    float: right;
+    color: white;
+    padding: 15px 30px 10px 50px;
+    /*height: 250px;*/
+    /*border: solid gray;*/
+    /*border-radius: 8px;*/
+    /*padding-top: 20px;*/
+    /*padding-right: 20px;*/
+    /*padding-left: 20px;*/
+    /*min-height: 150px;*/
+    /*min-width: 150px;*/
+}
+
+.box4{
+    margin: 15px 40% 15px 40%;
+    padding: 5px 5px 5px 5px;
+    /*border: 1px solid gray;*/
+    border-radius: 15px;
+    /*background-color: rgba(128, 128, 128, 0.7);*/
+    transition: 0.5s ease-in-out;
+}
+footer a{
+    color: white;
+    font-size: 1.4em;
+    text-decoration: none;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding: 5px 5px 5px 5px;
+}
+.box4:hover{
+    transform: scale(1.20);
+    box-shadow: 3px 5px 15px rgba(255, 255, 255, 0.15), -1px -2px 14px rgba(255, 255, 255, 0.25);
+}
+
+#s2{
+    min-height: 60em;
+    display: flex;
+    border-radius: 15px;
+    padding: 2em;
+    gap: 0.8em;
+    /*margin: 15px 30px 10px 30px;*/
+}
+.img{
+    border-radius: 1em;
+}
+.img1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+}
+.img2{
+    background-image: url("https://i.pinimg.com/736x/fe/e9/80/fee98063c4abcfa2639f081b18847d6a.jpg");
+    opacity: 75%;
+    flex: 2;
+    transition: 0.3s ease-in-out;
+
+}
+.img2:hover{
+    transform: scale(1.03);
+    box-shadow: 1px 4px 15px rgba(255, 255, 255, 0.15), -4px -2px 14px rgba(255, 255, 255, 0.45);
+}
+.img3{
+    gap: 0.5em;
+    display: flex;
+    flex-direction: column;
+    opacity: 75%;
+    flex: 2;
+}
+
+.col{
+    border-radius: 15px;
+    border: 2px none black;
+    flex: 2;
+    transition: 0.5s ease-in-out;
+}
+.col:hover{
+    transform: scale(1.04);
+    box-shadow: 1px 4px 15px rgba(255, 255, 255, 0.15), -4px -2px 14px rgba(255, 255, 255, 0.45);
+}
+.col1{
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Last_day_of_summer.png/220px-Last_day_of_summer.png");
+    flex: 1;
+    opacity: 78%;
+}
+.col2{
+    background-image: url("https://media.pitchfork.com/photos/5d15374982ada80008ddf2ca/master/pass/CaseStudy_DanielCaesar.jpg");
+    flex: 1;
+    opacity: 78%;
+}
+.col3{
+    background-image: url("https://m.media-amazon.com/images/I/61oxTFRSyZL._AC_UF894,1000_QL80_.jpg");
+    flex: 1;
+    opacity: 78%;
+}
+
+.small{
+    opacity: 100%;
+    border-radius: 15px;
+    flex: 1;
+}
+.small:hover{
+    transform: scale(1.04);
+    box-shadow: 1px 4px 15px rgba(255, 255, 255, 0.15), -4px -2px 14px rgba(255, 255, 255, 0.45);
+}
+.small-1{
+    background-image: url("https://qph.cf2.quoracdn.net/main-qimg-0b4d3539b314fb898a95d424fe1af853-pjlq");
+    transition: 0.5s ease-in-out;
+}
+.small-2{
+    background-image: url("https://images.genius.com/15affc3d3187a3bb55229a8849a1f3a0.1000x1000x1.jpg");
+    transition: 0.5s ease-in-out;
+}
+.small-3{
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/b/bf/SZA_-_Ctrl_cover.png");
+    transition: 0.5s ease-in-out;
+}
+
+#s3{
+    /*background-color: lightgray;*/
+    display: flex;
+    gap: 1em;
+    border-radius: 1em;
+    padding: 2em;
+    min-height: 50em;
+    margin: 15px 30px 10px 30px;
+}
+.proj{
+    border: solid black;
+    border-radius: 1em;
+    flex: 2;
+    gap: 1em;
+}
+.proj > img{
+    min-height: 91vh;
+    border-radius: 1em;
+    opacity: 85%;
+}
+.proj-1{
+    display: flex;
+    min-height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+.proj-2{
+    flex: 2;
+}
+
+
